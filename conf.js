@@ -6,11 +6,11 @@ var value = "Starting Sauce Protractor script now";
 console.log(value);
 
 
-exports.config = {
+exports.config = 
 
-	sauceUser: process.env.SAUCE_USERNAME,
+    sauceUser: process.env.SAUCE_USERNAME,
         sauceKey: process.env.SAUCE_ACCESS_KEY,
-	buildTag: process.env.BUILD_TAG,
+    buildTag: process.env.BUILD_TAG,
 
     // webDriverProxy: 'http://<proxy>:<port>',
 
@@ -30,19 +30,19 @@ exports.config = {
 
         browserName: 'firefox',
         version: 'latest',
-	platform: 'OS X 10.10',
-        name: "Ian-firefox-mac-protractor-tests",
+    platform: 'OS X 10.10',
+        name: "Jay-firefox-mac-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
-//	tunnelIdentifier: 'WebVMTunnelId'
+//  tunnelIdentifier: 'WebVMTunnelId'
     },
 
-	{
+    {
 
         browserName: 'chrome',
         version: 'latest',
-	platform: 'macOS 10.14',
-        name: "Ian-chrome-mac-protractor-tests",
+    platform: 'macOS 10.14',
+        name: "Jay-chrome-mac-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     },
@@ -51,8 +51,8 @@ exports.config = {
 
         browserName: 'chrome',
         version: 'latest',
-	platform: 'Windows 10',
-        name: "Ian-chrome-windowsten-protractor-tests",
+    platform: 'Windows 10',
+        name: "Jay-chrome-windowsten-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     },
@@ -61,8 +61,8 @@ exports.config = {
 
         browserName: 'chrome',
         version: 'latest-1',
-	platform: 'Windows 10',
-        name: "Ian-chrome-windowsten-protractor-tests",
+    platform: 'Windows 10',
+        name: "Jay-chrome-windowsten-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     },
@@ -71,8 +71,8 @@ exports.config = {
 
         browserName: 'chrome',
         version: 'latest-2',
-	platform: 'Windows 10',
-        name: "Ian-chrome-windowsten-protractor-tests",
+    platform: 'Windows 10',
+        name: "Jay-chrome-windowsten-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     },
@@ -81,8 +81,8 @@ exports.config = {
 
         browserName: 'firefox',
         version: 'latest',
-	platform: 'Windows 10',
-        name: "Ian-FF-windowsten-protractor-tests",
+    platform: 'Windows 10',
+        name: "Jay-FF-windowsten-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     },
@@ -91,8 +91,8 @@ exports.config = {
 
         browserName: 'firefox',
         version: 'latest-1',
-	platform: 'Windows 10',
-        name: "Ian-FF-windowsten-protractor-tests",
+    platform: 'Windows 10',
+        name: "Jay-FF-windowsten-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     },
@@ -101,8 +101,8 @@ exports.config = {
 
         browserName: 'firefox',
         version: 'latest',
-	platform: 'Windows 8.1',
-        name: "Ian-FF-windowseightdotone-protractor-tests",
+    platform: 'Windows 8.1',
+        name: "Jay-FF-windowseightdotone-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     },
@@ -111,8 +111,8 @@ exports.config = {
 
         browserName: 'firefox',
         version: 'latest-1',
-	platform: 'Windows 8.1',
-        name: "Ian-FF-windowseightdotone-protractor-tests",
+    platform: 'Windows 8.1',
+        name: "Jay-FF-windowseightdotone-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     },
@@ -121,8 +121,8 @@ exports.config = {
 
         browserName: 'firefox',
         version: 'latest-2',
-	platform: 'Windows 8.1',
-        name: "Ian-FF-windowseightdotone-protractor-tests",
+    platform: 'Windows 8.1',
+        name: "Jay-FF-windowseightdotone-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     },
@@ -132,8 +132,8 @@ exports.config = {
 
         browserName: 'chrome',
         version: 'latest',
-	platform: 'Windows 8.1',
-        name: "Ian-chrome-windowseightdotone-protractor-tests",
+    platform: 'Windows 8.1',
+        name: "Jay-chrome-windowseightdotone-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     },
@@ -142,8 +142,8 @@ exports.config = {
 
         browserName: 'chrome',
         version: 'latest-1',
-	platform: 'Windows 8.1',
-        name: "Ian-chrome-windowseightdotone-protractor-tests",
+    platform: 'Windows 8.1',
+        name: "Jay-chrome-windowseightdotone-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     },
@@ -152,8 +152,8 @@ exports.config = {
 
         browserName: 'chrome',
         version: 'latest-2',
-	platform: 'Windows 8.1',
-        name: "Ian-chrome-windowseightdotone-protractor-tests",
+    platform: 'Windows 8.1',
+        name: "Jay-chrome-windowseightdotone-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     },
@@ -162,20 +162,20 @@ exports.config = {
 
         browserName: 'firefox',
         version: 'latest-2',
-	platform: 'Windows 10',
-        name: "Ian-FF-windowsten-protractor-tests",
+    platform: 'Windows 10',
+        name: "Jay-FF-windowsten-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     },
 
 
 
-	{
+    {
         
         browserName: 'chrome',
         version: 'latest-1',
         platform: 'Windows 7',
-        name: "Ian-chrome-mac-protractor-tests",
+        name: "Jay-chrome-mac-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     }, 
@@ -183,7 +183,7 @@ exports.config = {
         browserName: 'chrome',
         version: 'latest',
         platform: 'Windows 7',
-        name: "Ian-chrome-windowsseven-protractor-tests",
+        name: "Jay-chrome-windowsseven-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     }],
@@ -195,6 +195,7 @@ exports.config = {
                 console.log('SauceOnDemandSessionID=' + session.getId() + ' job-name=' + jobName);
             });
         }
-        printSessionId("Ian_Protractor_Test");
+        printSessionId("Jay_Protractor_Test");
     }
 }
+
